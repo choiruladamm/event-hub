@@ -1,5 +1,5 @@
 {
-  "name": "flux-stack",
+  "name": "event-hub",
   "version": "1.0.0",
   "description": "Production-ready SaaS starter with Hono + Drizzle + Bun + Zod + Better Auth",
   "module": "src/index.ts",

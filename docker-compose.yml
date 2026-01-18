@@ -1,12 +1,12 @@
 services:
   postgres:
     image: postgres:16-alpine
-    container_name: flux-stack-db
+    container_name: event-hub-db
     restart: unless-stopped
     environment:
-      POSTGRES_USER: flux
-      POSTGRES_PASSWORD: flux
-      POSTGRES_DB: flux_stack
+      POSTGRES_USER: hub
+      POSTGRES_PASSWORD: hub
+      POSTGRES_DB: event_hub
     ports:
       - '5433:5432'
     volumes:
